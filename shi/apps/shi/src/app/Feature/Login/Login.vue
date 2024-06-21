@@ -1,4 +1,6 @@
-<script lang="ts">
+<script setup lang="ts">
+import { ref } from 'vue';
+
 // defineProps<{}>()
 
 export interface ReaderInfo {
@@ -7,28 +9,23 @@ export interface ReaderInfo {
   index: number;
 }
 
-export default {
-  name: 'Login',
-  data() {
-    return {
-      options: [
-        { label: '帳號1', value: '帳號1', index: 0 },
-        { label: '帳號2', value: '帳號2', index: 1 },
-      ] as ReaderInfo[],
-      selectedOption: { label: '帳號1', value: '1', index: 0 },
-      ppwwdd: '', // 壓碼作業時需要從UI上打入的密碼
-      is2ndGReader: false,
-      isLogin: false,
-      isShowTestMessage: false,
-    };
-  },
-  methods: {
-    login(ppwwdd: string, readerIndex: number) {
-      this.isShowTestMessage = true;
-      console.log(ppwwdd, readerIndex);
-    },
-  },
-};
+const options = ref([
+  { label: '帳號1', value: '帳號1', index: 0 },
+  { label: '帳號2', value: '帳號2', index: 1 },
+]);
+
+const selectedOption =  ref({ label: '帳號1', value: '1', index: 0 });
+
+const ppwwdd = ref(''); // 壓碼作業時需要從UI上打入的密碼
+
+const is2ndGReader = ref(false);
+
+const isShowTestMessage =  ref(false);
+
+function login(ppwwdd: string, readerIndex: number) {
+  isShowTestMessage.value = true;
+  console.log(ppwwdd, readerIndex);
+}
 </script>
 
 <template>

@@ -1,0 +1,20 @@
+{
+  "responseData":{
+    "tcsStatus": "4001",
+    "fiscStatus": "4001",
+    "returnMsg": "OK",
+	  "txDate": "20230829101010",
+	  "txTime": "20230829101010",
+    "balance": "100",
+    "actbal": "100",
+    "fee": "100",
+    "tcsSeqno": "1001",
+    "interTxnno": "1002",
+    "promomsg": "welcome",
+    "fromAccountDetails": "0475****1236",
+    "toAccountDetails": "0475****1237",
+    "amount": "100",
+    "email": "124563@iisigroup.com",
+    "emailContent": "附言"
+  }
+}

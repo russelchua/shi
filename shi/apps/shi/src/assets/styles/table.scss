@@ -1,0 +1,129 @@
+.table .p-datatable .p-datatable-header {
+  background: #f8f9fa00;
+  color: #343a40;
+  border: 1px solid #dee2e600;
+  border-width: 1px 0 1px 0;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  padding-left: unset;
+  font-weight: 700;
+}
+
+.tableContainer .p-datatable-table {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.tableContainer .p-datatable-wrapper {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.tableContainer .p-datatable-wrapper::-webkit-scrollbar {
+  background-color: transparent;
+  width: 0px;
+}
+
+.tableContainer .p-datatable .p-paginator-bottom {
+  max-width: 1520px;
+  width: 100%;
+}
+
+.tableContainer .p-datatable .p-datatable-footer {
+  width: 1600px;
+  background: #ffffff;
+}
+
+.tableContainer .p-datatable .p-datatable-thead>tr>th {
+  background: #ffffff;
+}
+
+.tableContainer .p-paginator-bottom p-dropdown {
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 500;
+  color: #1e1b16;
+  font-size: 16px;
+}
+
+.tableContainer .p-paginator-bottom .p-dropdown {
+  border: 1px solid #ced4da00;
+}
+
+.tableContainer .p-paginator .p-dropdown .p-dropdown-label::after {
+  content: ' 筆';
+  font-size: 16px;
+}
+
+.tableContainer .p-paginator-right-content {
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #1E1B16;
+  font-size: 16px;
+}
+
+.tableContainer .p-datatable .p-paginator-bottom {
+  border-width: 0 0 0 0;
+  margin-top: 2rem;
+}
+
+.tableContainer .p-datatable .p-datatable-tbody>tr:not(.trBackground) {
+  background: #ffffff00;
+  cursor: pointer;
+}
+
+.tableContainer .p-datatable .p-datatable-tbody>tr>td {
+  border: 1px solid #dee2e600;
+}
+
+.tableContainer .p-datatable .p-datatable-thead>tr>th {
+  border: 1px solid #dee2e600;
+}
+
+.tableContainer tr.trBackground:nth-child(odd) {
+  background: #F2F2F2;
+}
+
+.tableContainer tr.trBackground:nth-child(even) {
+  background: #FFFFFF;
+}
+
+.tableContainer .p-datatable.p-datatable-hoverable-rows .p-datatable-tbody>tr:not(.p-highlight):hover {
+  background: unset;
+}
+
+.tableContainer {
+
+  .p-paginator-bottom {
+    .p-paginator-left-content {
+      order: 1;
+      margin-right: unset;
+    }
+
+    p-dropdown {
+      order: 2;
+    }
+
+    .p-paginator-prev {
+      order: 3;
+      margin-left: auto;
+    }
+
+    .p-paginator-pages {
+      order: 4;
+    }
+
+    .p-paginator-next {
+      order: 5;
+      margin-right: auto;
+    }
+
+    .p-paginator-right-content {
+      order: 6;
+      margin-left: unset;
+    }
+  }
+}

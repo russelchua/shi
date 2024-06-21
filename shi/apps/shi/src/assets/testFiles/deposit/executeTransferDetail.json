@@ -1,0 +1,129 @@
+{
+  "responseData": {
+    "ctrlData": "Y",
+    "list": [
+      {
+        "txDate": "20231010",
+        "txTime": "153740",
+        "date": "20231010",
+        "txAmtSign": "+",
+        "txDAmt": 10000,
+        "txCAmt": 900000,
+        "balSign": "+",
+        "balAmt": "99999",
+        "purpose": "gg",
+        "memo": "yy"
+      },
+      {
+        "txDate": "string",
+        "txTime": "string",
+        "date": "string",
+        "txAmtSign": "+",
+        "txDAmt": "1000000",
+        "txCAmt": "200000",
+        "balSign": "string",
+        "balAmt": "string",
+        "purpose": "string",
+        "memo": "string"
+      },
+      {
+        "txDate": "string",
+        "txTime": "string",
+        "date": "string",
+        "txAmtSign": "string",
+        "txDAmt": "string",
+        "txCAmt": "string",
+        "balSign": "string",
+        "balAmt": "string",
+        "purpose": "string",
+        "memo": "string"
+      },
+      {
+        "txDate": "string",
+        "txTime": "string",
+        "date": "string",
+        "txAmtSign": "string",
+        "txDAmt": "string",
+        "txCAmt": "string",
+        "balSign": "string",
+        "balAmt": "string",
+        "purpose": "string",
+        "memo": "string"
+      },
+      {
+        "txDate": "string",
+        "txTime": "string",
+        "date": "string",
+        "txAmtSign": "string",
+        "txDAmt": "string",
+        "txCAmt": "string",
+        "balSign": "string",
+        "balAmt": "string",
+        "purpose": "string",
+        "memo": "string"
+      },
+      {
+        "txDate": "string",
+        "txTime": "string",
+        "date": "string",
+        "txAmtSign": "string",
+        "txDAmt": "string",
+        "txCAmt": "string",
+        "balSign": "string",
+        "balAmt": "string",
+        "purpose": "string",
+        "memo": "string"
+      },
+      {
+        "txDate": "string",
+        "txTime": "string",
+        "date": "string",
+        "txAmtSign": "string",
+        "txDAmt": "string",
+        "txCAmt": "string",
+        "balSign": "string",
+        "balAmt": "string",
+        "purpose": "string",
+        "memo": "string"
+      },
+      {
+        "txDate": "string",
+        "txTime": "string",
+        "date": "string",
+        "txAmtSign": "string",
+        "txDAmt": "string",
+        "txCAmt": "string",
+        "balSign": "string",
+        "balAmt": "string",
+        "purpose": "string",
+        "memo": "string"
+      },
+      {
+        "txDate": "string",
+        "txTime": "string",
+        "date": "string",
+        "txAmtSign": "string",
+        "txDAmt": "string",
+        "txCAmt": "string",
+        "balSign": "string",
+        "balAmt": "string",
+        "purpose": "string",
+        "memo": "string"
+      },
+      {
+        "txDate": "string",
+        "txTime": "string",
+        "date": "string",
+        "txAmtSign": "string",
+        "txDAmt": "string",
+        "txCAmt": "string",
+        "balSign": "string",
+        "balAmt": "string",
+        "purpose": "string",
+        "memo": "string"
+      }
+    ],
+    "fiscStatus": "4001",
+    "returnMsg": "OK"
+  }
+}

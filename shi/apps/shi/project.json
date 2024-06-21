@@ -1,0 +1,7 @@
+{
+  "name": "shi",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/shi/src",
+  "targets": {}
+}

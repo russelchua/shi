@@ -1,0 +1,13 @@
+{
+  "responseData": {
+    "tcsStatus": "string",
+    "fiscStatus": "string",
+    "returnMsg": "string",
+    "balance": "99999990",
+    "actbal": "string",
+    "fee": "string",
+    "tcsSeqno": "string",
+    "interTxnno": "string",
+    "promomsg": "string"
+  }
+}

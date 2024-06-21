@@ -1,0 +1,67 @@
+{
+  "responseData": {
+    "isShi": true,
+    "tasks": [
+      {
+        "taskId": "ACC_100002",
+        "taskName": "餘額查詢",
+        "parentId": "ACC_000000",
+        "isLeaf": 1,
+        "isActive": 1,
+        "isShiOnly": 0,
+        "orderNo": 4,
+        "taskURL": "balance"
+      },
+      {
+        "taskId": "ACC_100003",
+        "taskName": "存款明細查詢",
+        "parentId": "ACC_000000",
+        "isLeaf": 1,
+        "isActive": 1,
+        "isShiOnly": 1,
+        "orderNo": 5,
+        "taskURL": "deposit"
+      },
+      {
+        "taskId": "ACC_100004",
+        "taskName": "約定帳號轉帳",
+        "parentId": "ACC_000000",
+        "isLeaf": 1,
+        "isActive": 1,
+        "isShiOnly": 0,
+        "orderNo": 6,
+        "taskURL": "designated-transfer"
+      },
+      {
+        "taskId": "ACC_100005",
+        "taskName": "非約定照號轉帳",
+        "parentId": "ACC_000000",
+        "isLeaf": 1,
+        "isActive": 1,
+        "isShiOnly": 0,
+        "orderNo": 7,
+        "taskURL": "non-designated-transfer"
+      },
+      {
+        "taskId": "ACC_100006",
+        "taskName": "密碼變更",
+        "parentId": "ACC_000000",
+        "isLeaf": 1,
+        "isActive": 1,
+        "isShiOnly": 0,
+        "orderNo": 8,
+        "taskURL": "password-change"
+      },
+      {
+        "taskId": "ACC_100007",
+        "taskName": "申請簡訊安控",
+        "parentId": "ACC_000000",
+        "isLeaf": 1,
+        "isActive": 1,
+        "isShiOnly": 1,
+        "orderNo": 9,
+        "taskURL": "OTP-application"
+      }
+    ]
+  }
+}

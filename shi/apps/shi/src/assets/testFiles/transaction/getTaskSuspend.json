@@ -1,0 +1,11 @@
+{
+  "responseData": {
+    "taskId": "string",
+    "taskName": "string",
+    "showAlert": true,
+    "alertMsg": "5分鐘後停止",
+    "disableFlag": false,
+    "startTime": "date",
+    "endTime": "date"
+  }
+}

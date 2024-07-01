@@ -1,7 +1,7 @@
 // Styles
 import './styles.scss';
-import '/node_modules/primeflex/primeflex.css'
 import 'primevue/resources/themes/aura-light-green/theme.css'
+import './assets/styles/export.scss'
 
 // PrimeVue
 import PrimeVue from 'primevue/config';

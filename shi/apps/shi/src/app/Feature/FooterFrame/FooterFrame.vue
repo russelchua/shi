@@ -1,113 +1,38 @@
-<script lang="ts">
+<script setup lang="ts">
 // defineProps<{}>()
 </script>
 
 <template>
-  <div class="statementContainer flex align-items-center">
+  <!-- 內容外部排版 -->
+  <footer class="w-screen min-h-[11.0625rem] bg-[#020202]">
+    <!-- 內容內部排版 置中 -->
+    <div class="max-w-[95rem] my-0 mx-auto">
 
-    <div class="privactStatementContainer flex align-items-center">
-      <a :href="'/main/' + 'login' + '#footer'" accesskey="B" id="footer">
-        <img class="dragIndicator" src="../../../assets/icons/drag_indicator.png" alt="導盲磚" />
-      </a>
-      <a href="">
-        <p class="privactStatement">隱私權聲明</p>
-      </a>
+      <!-- 資訊 -->
+      <div class="flex items-center pt-9 gap-2">
+        <p class="p-3 font-roboto text-lg font-normal leading-[1.625rem] tracking-[0.0625rem] text-[#FFFFFF]">
+          教練電話：0988786796
+        </p>
+
+        <!-- 分隔線 -->
+        <div class="w-[0.125rem] h-6 border-[#FFFFFF] border-[0.08125rem]"></div>
+
+        <p class="p-3 font-roboto text-lg font-normal leading-[1.625rem] tracking-[0.0625rem] text-left text-[#FFFFFF]">
+          王羿文教練
+        </p>
+      </div>
+
+      <!-- 版權 -->
+      <div class="flex justify-between">
+        <span class="px-3 py-2 items-start min-h-8 font-['Noto_Sans_TC'] text-base font-normal leading-8 tracking-[0.125rem] text-left text-[#FFFFFF]">
+          COPYRIGHT 2024 Shi HSINCHU SHI INLINE SKATE, ALL RIGHTS RESERVED. 恃 Shi Holdings
+        </span>
+
+        <img class="mt-2" src="../../../assets/images/a11y_logo.png" alt="恃" />
+      </div>
+
     </div>
-
-    <div class="divider"></div>
-
-    <div class="securityStatementContainer flex align-items-center">
-      <a href="">
-        <p class="securityStatement">安全宣告</p>
-      </a>
-    </div>
-  </div>
-
-  <div class="bottom-container flex justify-content-between">
-
-    <div class="copyrightContainer" tabindex="0">
-      <span class="copyright">COPYRIGHT 2008 Shi International Commercial Bank, ALL RIGHTS
-        RESERVED. 恃 Shi Holdings</span>
-    </div>
-
-    <div class="a11yLogoContainer" tabindex="0">
-      <img class="a11yLogo" src="../../../assets/images/a11y_logo.png" alt="無障礙標章" />
-    </div>
-  </div>
+  </footer>
 </template>
 
-<style lang="scss" scoped>
-@import '../../../assets/styles/rwd.scss';
-
-.statementContainer {
-  padding-top: 2.25rem;
-  gap: 0.5rem;
-
-  .privactStatementContainer {
-    padding-left: 0.75rem;
-    gap: 0.75rem;
-
-    .privactStatement {
-      padding: 0.75rem;
-      font-family: Roboto;
-      font-size: 1.125rem;
-      font-weight: 400;
-      line-height: 1.625rem;
-      letter-spacing: 0.0625rem;
-      color: #6c5c3f;
-      cursor: pointer;
-    }
-  }
-
-  .divider {
-    width: 0.125rem;
-    height: 1.5rem;
-    background: #7f7667;
-    border: 0.0.8125rem;
-  }
-
-  .securityStatementContainer {
-    padding: 0.75rem;
-    gap: 0.75rem;
-
-    .securityStatement {
-      font-family: Roboto;
-      font-size: 1.125rem;
-      font-weight: 400;
-      line-height: 1.625rem;
-      letter-spacing: 0.0625rem;
-      text-align: left;
-      color: #6c5c3f;
-      cursor: pointer;
-    }
-  }
-}
-
-.copyrightContainer {
-  display: inline-flex;
-  padding: 0.5rem 0.75rem;
-  align-items: flex-start;
-
-  .copyright {
-    min-height: 2rem;
-    font-family: Noto Sans TC;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 2rem;
-    letter-spacing: 0.125rem;
-    text-align: left;
-    color: #1e1b16;
-  }
-}
-
-.a11yLogoContainer {
-  // width: 6.875rem;
-  // height: 2.5rem;
-  margin-top: 0.5rem;
-
-  .a11yLogo {
-    // width: 6.875rem;
-    // height: 2.5rem;
-  }
-}
-</style>
+<style lang="scss" scoped></style>

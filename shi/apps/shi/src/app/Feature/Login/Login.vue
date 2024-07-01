@@ -1,13 +1,13 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 
-// defineProps<{}>()
-
 export interface ReaderInfo {
   label: string;
   value: string;
   index: number;
 }
+
+// defineProps<{}>()
 
 const options = ref([
   { label: '帳號1', value: '帳號1', index: 0 },
@@ -30,9 +30,9 @@ function login(ppwwdd: string, readerIndex: number) {
 
 <template>
   <div class="contentContainer">
-    <div class="content flex justify-content-between">
+    <div class="content flex justify-between">
       <div
-        class="left-container flex flex-column"
+        class="left-container flex flex-col"
       >
         <div class="dropdownContainer">
           <Dropdown
@@ -93,8 +93,6 @@ function login(ppwwdd: string, readerIndex: number) {
 </template>
 
 <style lang="scss" scoped>
-@import '../../../assets/styles/rwd.scss';
-
 .contentContainer {
   min-height: 42.943125rem;
 
@@ -102,13 +100,6 @@ function login(ppwwdd: string, readerIndex: number) {
     width: 43.875rem;
     height: 32.9375rem;
     margin-top: 2.44rem;
-
-    @include pad {
-      width: 0;
-      height: 0;
-      top: 0;
-      left: 0;
-    }
   }
 
   .left-container {

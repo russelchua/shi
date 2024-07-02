@@ -8,7 +8,7 @@
     <!-- 內容內部排版 置中 -->
     <div class="max-w-[95rem] my-0 mx-auto">
 
-      <!-- 外框 -->
+      <!-- 內容外框 -->
        <div class="flex justify-between">
          <!-- 左邊 -->
           <div>
@@ -35,7 +35,7 @@
           </div>
 
          <!-- 右邊 -->
-         <img class="" src="../../../assets/images/Footer/shi_4x.png" alt="恃" />
+         <img src="../../../assets/images/Footer/shi_4x.png" alt="恃" />
        </div>
 
     </div>

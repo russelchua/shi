@@ -16,7 +16,7 @@ const items = ref(
 
 <template>
   <!-- 內容外部排版 -->
-  <section class="w-screen bg-[#A0A0A0]">
+  <section class="w-screen bg-[#A0A0A0] min-h-screen">
 
     <!-- 內容內部排版 置中 -->
     <div class="max-w-[95rem] my-0 mx-auto">

@@ -1,6 +1,7 @@
 // Styles
 import './styles.scss';
 import 'primevue/resources/themes/aura-light-green/theme.css'
+import 'primeicons/primeicons.css'
 import './assets/styles/export.scss'
 
 // PrimeVue

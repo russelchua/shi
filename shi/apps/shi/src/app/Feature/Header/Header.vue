@@ -8,13 +8,19 @@
 
     <!-- 內容內部排版 置中 -->
     <div class="max-w-[95rem] my-0 mx-auto">
-      <!-- 圖與標題排版 -->
+      <!-- 圖與標題, 按鈕排版 -->
       <h1 class="flex items-center justify-between mt-3.5">
-        <a href=""><img class="logo" src="../../../assets/images/logo 2.png" width="100%" alt="恃" /></a>
+        <img src="../../../assets/images/logo 2.png" alt="恃" />
 
-        <div class="flex flex-col items-center gap-4">
-          <p class="title" tabindex="0">新竹恃直排輪學校</p>
-          <p class="title" tabindex="0">HSINCHU SHI INLINE SKATE</p>
+        <!-- 標題與選單鈕外框 -->
+        <div class="flex">
+          <div class="flex flex-col items-center gap-4">
+            <p class="title" tabindex="0">新竹恃直排輪學校</p>
+            <p class="title" tabindex="0">HSINCHU SHI INLINE SKATE</p>
+          </div>
+
+          <!-- 選單鈕 -->
+           <PButton icon="pi pi-bars" style="color: white" class="self-start" iconClass="text-4xl"></PButton>
         </div>
       </h1>
 

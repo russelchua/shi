@@ -1,0 +1,37 @@
+stages:          # List of stages for jobs, and their order of execution
+  - clone
+  # - build
+  # - test
+  # - deploy
+
+clone-job:
+  stage: clone
+
+  tags:
+    - MEGA_CLOUD_COUNTER
+
+  script:
+    
+    # prepare git and clone the source
+    - echo "Cloning the source"
+
+    - apt-get update -qq && apt-get install -y git
+    - rm -rf repo
+    - git clone https://github.com/russelchua/shi.git repo
+    - cd repo
+    - git checkout main
+
+    # start to build Vue App
+    - echo "Compiling the Vue App"
+
+    # start to build Docker Image by Dockerfile
+    - echo "Building the Docker Image"
+
+    # upload Docker Image to Image Hub
+    - echo "Uploading the Docker Image"
+
+    # make Ubuntu execute docker-compose, pull the Image from Image Hub, by docker-compose.yml
+    - echo "Executing the docker-compose up -d"
+
+    # finish the job
+    - echo "Compile complete."

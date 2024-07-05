@@ -2,7 +2,9 @@
   "name": "@shi/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build-production": "npx nx run shi:build"
+  },
   "private": true,
   "dependencies": {
     "primeicons": "^7.0.0",

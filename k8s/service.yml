@@ -7,5 +7,5 @@ spec:
   selector:
     app: shi-app
   ports:
-    - port: 40988
-      targetPort: 40988
+    - port: 7988
+      targetPort: 80

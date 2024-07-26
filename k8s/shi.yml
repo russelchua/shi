@@ -16,4 +16,4 @@ spec:
       - name: shi-container
         image: russelchuah94/shi:latest
         ports:
-        - containerPort: 40988
+        - containerPort: 80

@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: shi-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: shi-app
+  template:
+    metadata:
+      labels:
+        app: shi-app
+    spec:
+      containers:
+      - name: shi-container
+        image: russelchuah94/shi:latest
+        ports:
+        - containerPort: 40988

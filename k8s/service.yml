@@ -9,4 +9,3 @@ spec:
   ports:
     - port: 7988
       targetPort: 80
-      nodePort: 30080

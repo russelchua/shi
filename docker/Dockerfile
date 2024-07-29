@@ -5,7 +5,7 @@ FROM httpd:2.4
 COPY shi /usr/local/apache2/htdocs/
 
 # 複製自定義的 httpd 配置文件（如果需要的話）
-# COPY ./httpd.conf /usr/local/apache2/conf/httpd.conf
+COPY ./httpd.conf /usr/local/apache2/conf/httpd.conf
 
 # 暴露 80 端口
 EXPOSE 80

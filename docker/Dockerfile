@@ -7,6 +7,8 @@ COPY shi /usr/local/apache2/htdocs/
 # 複製自定義的 httpd 配置文件（如果需要的話）
 # COPY ./my-httpd.conf /usr/local/apache2/conf/httpd.conf
 
+ENV APACHE_SERVER_NAME localhost
+
 # 暴露 80 端口
 EXPOSE 80
 
